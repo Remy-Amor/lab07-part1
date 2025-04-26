@@ -9,6 +9,9 @@
      <title>Days Array</title>
 </head>
 <body>
-     
+     <?php
+          $days = array("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday");
+          echo print_r($days);
+     ?>
 </body>
 </html>
